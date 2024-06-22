@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		6036B0BC2C22BE1F000B1969 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6036B0BB2C22BE1F000B1969 /* WeatherApp.swift */; };
-		6036B0BE2C22BE1F000B1969 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6036B0BD2C22BE1F000B1969 /* ContentView.swift */; };
+		6036B0BE2C22BE1F000B1969 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6036B0BD2C22BE1F000B1969 /* HomeView.swift */; };
 		6036B0C02C22BE20000B1969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6036B0BF2C22BE20000B1969 /* Assets.xcassets */; };
 		6036B0C32C22BE20000B1969 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6036B0C22C22BE20000B1969 /* Preview Assets.xcassets */; };
+		6036B0D72C22DB72000B1969 /* Data in Frameworks */ = {isa = PBXBuildFile; productRef = 6036B0D62C22DB72000B1969 /* Data */; };
+		6066F1E12C23D83E0071DED2 /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = 6066F1E02C23D83E0071DED2 /* Factory */; };
+		6066F1E42C23D8A30071DED2 /* Container+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6066F1E32C23D8A30071DED2 /* Container+Injection.swift */; };
+		6066F1E82C241E360071DED2 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = 6066F1E72C241E360071DED2 /* Domain */; };
+		6066F1F02C2522D70071DED2 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6066F1EF2C2522D70071DED2 /* ImageLoader.swift */; };
+		6066F1F32C2523F70071DED2 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6066F1F22C2523F70071DED2 /* SDWebImageSwiftUI */; };
+		6066F1F52C2525EC0071DED2 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6066F1F42C2525EC0071DED2 /* WeatherCell.swift */; };
+		608090912C2561B800F28EED /* SearchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608090902C2561B800F28EED /* SearchListView.swift */; };
+		608090932C2563ED00F28EED /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608090922C2563ED00F28EED /* LoadingView.swift */; };
+		608090952C2564EC00F28EED /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608090942C2564EC00F28EED /* HomeViewModel.swift */; };
+		608090972C2568A500F28EED /* Network in Frameworks */ = {isa = PBXBuildFile; productRef = 608090962C2568A500F28EED /* Network */; };
+		6080909A2C256E1900F28EED /* SwipeActions in Frameworks */ = {isa = PBXBuildFile; productRef = 608090992C256E1900F28EED /* SwipeActions */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6036B0B82C22BE1F000B1969 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6036B0BB2C22BE1F000B1969 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
-		6036B0BD2C22BE1F000B1969 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6036B0BD2C22BE1F000B1969 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		6036B0BF2C22BE20000B1969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6036B0C22C22BE20000B1969 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6036B0D32C22D9F6000B1969 /* Network */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Network; sourceTree = "<group>"; };
+		6036B0D42C22DA67000B1969 /* Data */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Data; sourceTree = "<group>"; };
+		6036B0D52C22DB6A000B1969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6066F1E32C23D8A30071DED2 /* Container+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Container+Injection.swift"; sourceTree = "<group>"; };
+		6066F1E62C2412F10071DED2 /* Domain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Domain; sourceTree = "<group>"; };
+		6066F1EF2C2522D70071DED2 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		6066F1F42C2525EC0071DED2 /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		608090902C2561B800F28EED /* SearchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListView.swift; sourceTree = "<group>"; };
+		608090922C2563ED00F28EED /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		608090942C2564EC00F28EED /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +48,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6066F1F32C2523F70071DED2 /* SDWebImageSwiftUI in Frameworks */,
+				6080909A2C256E1900F28EED /* SwipeActions in Frameworks */,
+				6066F1E12C23D83E0071DED2 /* Factory in Frameworks */,
+				6036B0D72C22DB72000B1969 /* Data in Frameworks */,
+				6066F1E82C241E360071DED2 /* Domain in Frameworks */,
+				608090972C2568A500F28EED /* Network in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +63,10 @@
 		6036B0AF2C22BE1E000B1969 = {
 			isa = PBXGroup;
 			children = (
+				6036B0C92C22BFEB000B1969 /* Packages */,
 				6036B0BA2C22BE1F000B1969 /* Weather */,
 				6036B0B92C22BE1F000B1969 /* Products */,
+				6036B0CB2C22C156000B1969 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +81,13 @@
 		6036B0BA2C22BE1F000B1969 /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				6066F1EE2C2522C20071DED2 /* Components */,
+				6066F1E22C23D88A0071DED2 /* DI */,
+				6036B0BD2C22BE1F000B1969 /* HomeView.swift */,
+				608090942C2564EC00F28EED /* HomeViewModel.swift */,
 				6036B0BB2C22BE1F000B1969 /* WeatherApp.swift */,
-				6036B0BD2C22BE1F000B1969 /* ContentView.swift */,
 				6036B0BF2C22BE20000B1969 /* Assets.xcassets */,
+				6036B0D52C22DB6A000B1969 /* Info.plist */,
 				6036B0C12C22BE20000B1969 /* Preview Content */,
 			);
 			path = Weather;
@@ -65,6 +99,42 @@
 				6036B0C22C22BE20000B1969 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6036B0C92C22BFEB000B1969 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				6066F1E62C2412F10071DED2 /* Domain */,
+				6036B0D42C22DA67000B1969 /* Data */,
+				6036B0D32C22D9F6000B1969 /* Network */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		6036B0CB2C22C156000B1969 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6066F1E22C23D88A0071DED2 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				6066F1E32C23D8A30071DED2 /* Container+Injection.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		6066F1EE2C2522C20071DED2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6066F1EF2C2522D70071DED2 /* ImageLoader.swift */,
+				6066F1F42C2525EC0071DED2 /* WeatherCell.swift */,
+				608090902C2561B800F28EED /* SearchListView.swift */,
+				608090922C2563ED00F28EED /* LoadingView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +153,14 @@
 			dependencies = (
 			);
 			name = Weather;
+			packageProductDependencies = (
+				6036B0D62C22DB72000B1969 /* Data */,
+				6066F1E02C23D83E0071DED2 /* Factory */,
+				6066F1E72C241E360071DED2 /* Domain */,
+				6066F1F22C2523F70071DED2 /* SDWebImageSwiftUI */,
+				608090962C2568A500F28EED /* Network */,
+				608090992C256E1900F28EED /* SwipeActions */,
+			);
 			productName = Weather;
 			productReference = 6036B0B82C22BE1F000B1969 /* Weather.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +189,11 @@
 				Base,
 			);
 			mainGroup = 6036B0AF2C22BE1E000B1969;
+			packageReferences = (
+				6066F1DF2C23D83E0071DED2 /* XCRemoteSwiftPackageReference "Factory" */,
+				6066F1F12C2523F70071DED2 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				608090982C256E1900F28EED /* XCRemoteSwiftPackageReference "SwipeActions" */,
+			);
 			productRefGroup = 6036B0B92C22BE1F000B1969 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +220,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6036B0BE2C22BE1F000B1969 /* ContentView.swift in Sources */,
+				608090912C2561B800F28EED /* SearchListView.swift in Sources */,
+				6066F1E42C23D8A30071DED2 /* Container+Injection.swift in Sources */,
+				6036B0BE2C22BE1F000B1969 /* HomeView.swift in Sources */,
+				608090952C2564EC00F28EED /* HomeViewModel.swift in Sources */,
+				6066F1F52C2525EC0071DED2 /* WeatherCell.swift in Sources */,
+				6066F1F02C2522D70071DED2 /* ImageLoader.swift in Sources */,
+				608090932C2563ED00F28EED /* LoadingView.swift in Sources */,
 				6036B0BC2C22BE1F000B1969 /* WeatherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +364,7 @@
 				DEVELOPMENT_TEAM = T4FRAKD7KH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Weather/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +394,7 @@
 				DEVELOPMENT_TEAM = T4FRAKD7KH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Weather/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +435,63 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6066F1DF2C23D83E0071DED2 /* XCRemoteSwiftPackageReference "Factory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Factory.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.2;
+			};
+		};
+		6066F1F12C2523F70071DED2 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.4;
+			};
+		};
+		608090982C256E1900F28EED /* XCRemoteSwiftPackageReference "SwipeActions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/c-villain/SwipeActions.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6036B0D62C22DB72000B1969 /* Data */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Data;
+		};
+		6066F1E02C23D83E0071DED2 /* Factory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6066F1DF2C23D83E0071DED2 /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = Factory;
+		};
+		6066F1E72C241E360071DED2 /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
+		};
+		6066F1F22C2523F70071DED2 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6066F1F12C2523F70071DED2 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		608090962C2568A500F28EED /* Network */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Network;
+		};
+		608090992C256E1900F28EED /* SwipeActions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 608090982C256E1900F28EED /* XCRemoteSwiftPackageReference "SwipeActions" */;
+			productName = SwipeActions;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6036B0B02C22BE1E000B1969 /* Project object */;
 }
